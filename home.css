@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: url(furina\ cool.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--spotify-gray);
+}
+
+
+.header .i[class="fab fa-spotify"] {
+    color: black;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.header .h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    width: 300px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.search-bar i {
+    color: var(--spotify-gray);
+    margin-right: 10px;
+}
